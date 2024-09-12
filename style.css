@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/images/backgroundImage.jpg);
+    background-size: cover;
+}
+
+.instruction {
+    font-size: 40px;
+    color: rgb(168, 147, 175);
+    text-shadow: 2px 2px 5px rgb(255, 165, 97);
+    text-align: center;
+    margin-top: 220px;
+}
+
+.card-container {
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+
+ .card {
+    position: absolute;
+    height: 220px;
+    width: 140px;
+    background-image: url(assets/images/cardShirt.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(169, 138, 177);
+    box-shadow: 0 4px 8px rgb(163, 163, 163);
+ }
+
+ .card-one {
+    transform: rotate(-35deg);
+    z-index: 1;
+    top: 250px;
+    left: 50px;
+ }
+
+ .card-two {
+    
+    transform: rotate(-25deg);
+    z-index: 2;
+    top: 250px;
+    left: 100px;
+ }
+
+ .card-three {
+    transform: rotate(-15deg);
+    z-index: 3;
+    top: 250px;
+    left: 150px;
+ }
+
+ .card-four {
+    
+    transform: rotate(0deg);
+    z-index: 4;
+    top: 250px;
+    left: 200px;
+ }
+
+ .card-five {
+    
+    transform: rotate(15deg);
+    z-index: 5;
+    top: 250px;
+    left: 250px;
+ }
+
+ .card-six {
+    transform: rotate(25deg);
+    z-index: 5;
+    top: 250px;
+    left: 300px;
+ }
+
+ .card-seven {
+    transform: rotate(35deg);
+    z-index: 5;
+    top: 250px;
+    left: 350px;
+ }
+
