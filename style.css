@@ -30,6 +30,7 @@ body {
     border-radius: 10px;
     border: 2px solid rgb(169, 138, 177);
     box-shadow: 0 4px 8px rgb(163, 163, 163);
+    cursor:grab;
  }
 
  .card-one {
@@ -40,7 +41,6 @@ body {
  }
 
  .card-two {
-    
     transform: rotate(-25deg);
     z-index: 2;
     top: 250px;
@@ -55,7 +55,6 @@ body {
  }
 
  .card-four {
-    
     transform: rotate(0deg);
     z-index: 4;
     top: 250px;
@@ -63,7 +62,6 @@ body {
  }
 
  .card-five {
-    
     transform: rotate(15deg);
     z-index: 5;
     top: 250px;
@@ -72,15 +70,59 @@ body {
 
  .card-six {
     transform: rotate(25deg);
-    z-index: 5;
+    z-index: 6;
     top: 250px;
     left: 300px;
  }
 
  .card-seven {
     transform: rotate(35deg);
-    z-index: 5;
+    z-index: 7;
     top: 250px;
     left: 350px;
  }
+
+ .card-one:hover {
+    z-index: 10;
+    box-shadow: 6px 6px 15px rgb(255, 150, 64);
+    border-color: orange;
+ }
+
+ .card-two:hover {
+    z-index: 10;
+    box-shadow: 6px 6px 15px rgb(255, 150, 64);
+    border-color: orange;
+ }
+
+ .card-three:hover {
+    z-index: 10;
+    box-shadow: 6px 6px 15px rgb(255, 150, 64);
+    border-color: orange;
+ }
+
+ .card-four:hover {
+    z-index: 10;
+    box-shadow: 6px 6px 15px rgb(255, 150, 64);
+    border-color: orange;
+ }
+
+ .card-five:hover {
+    z-index: 10;
+    box-shadow: 6px 6px 15px rgb(255, 150, 64);
+    border-color: orange;
+ }
+
+ .card-six:hover {
+    z-index: 10;
+    box-shadow: 6px 6px 15px rgb(255, 150, 64);
+    border-color: orange;
+ }
+
+ .card-seven:hover {
+    z-index: 10;
+    box-shadow: 6px 6px 15px rgb(255, 150, 64);
+    border-color: orange;
+ }
+
+
 
